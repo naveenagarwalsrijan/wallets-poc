@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "iamthestrongestpassword",
+    "database": "database_wallet",
+    "host": "container-db",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "iamthestrongestpassword",
+    "database": "database_wallet",
+    "host": "container-db",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "iamthestrongestpassword",
+    "database": "database_wallet",
+    "host": "container-db",
+    "dialect": "mysql"
+  }
+}
