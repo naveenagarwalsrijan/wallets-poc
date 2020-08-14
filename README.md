@@ -1,13 +1,15 @@
 ### Wallet Balance Tracker
 
-######POC
+POC
 
 `To ensure wallet balance never goes below zero irrespective of the traffic coming in for a particular user.`
 
 To run this app
 
 `1. docker-compose build`
+
 `2. docker-compose up`
+
 `3. docker-compose run node npx sequelize-cli db:migrate`
 
 ##### URLs
