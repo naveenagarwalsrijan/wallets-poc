@@ -26,6 +26,7 @@ router.post('/:id', async function(req, res, next) {
     .catch((e) => { /**  do something on error */ });
 
   res.json({success : true});
+  res.end();
 
 });
 
