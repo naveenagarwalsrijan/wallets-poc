@@ -26,10 +26,10 @@ then
 
   if [ "$TYPEORM_MIGRATION" = "ENABLE" ]
   then
-    echo "+Running typeorm migrations (caches will be cleared) - disable with .env entry TYPEORM_MIGRATION=DISABLE"
-    npm run migration:run
+    # echo "+Running typeorm migrations (caches will be cleared) - disable with .env entry TYPEORM_MIGRATION=DISABLE"
+    # npm run migration:run
   else
-    echo "+Skipping typeorm migrations - enable with .env entry TYPEORM_MIGRATION=ENABLE"
+    # echo "+Skipping typeorm migrations - enable with .env entry TYPEORM_MIGRATION=ENABLE"
   fi
 
   popd
