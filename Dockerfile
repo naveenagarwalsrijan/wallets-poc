@@ -12,4 +12,4 @@ COPY . /app
 
 EXPOSE 3000
 
-CMD npm run start:prod
+CMD npm run start
